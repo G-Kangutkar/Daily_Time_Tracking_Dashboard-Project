@@ -3,13 +3,14 @@ import { getAuth } from 'firebase/auth';
 import { getDatabase } from 'firebase/database';
 
 const firebaseConfig = {
-  databaseURL: 'https://ai-project-36184-default-rtdb.asia-southeast1.firebasedatabase.app/',
-  apiKey: 'AIzaSyDummy_Replace_With_Real_Key',
-  authDomain: 'ai-project-36184.firebaseapp.com',
-  projectId: 'ai-project-36184',
-  storageBucket: 'ai-project-36184.appspot.com',
-  messagingSenderId: '123456789',
-  appId: '1:123456789:web:abcdef123456'
+  apiKey: "AIzaSyAVEEtsi39DBChHj_Cu2V04gzulVeZDOcs",
+  authDomain: "ai-project-36184.firebaseapp.com",
+  databaseURL: "https://ai-project-36184-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "ai-project-36184",
+  storageBucket: "ai-project-36184.firebasestorage.app",
+  messagingSenderId: "1040023061480",
+  appId: "1:1040023061480:web:25d0c9e23171cde3999a5d",
+  measurementId: "G-LQYGZ1DTCD"
 };
 
 const app = initializeApp(firebaseConfig);
