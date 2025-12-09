@@ -14,7 +14,12 @@ A comprehensive web application for tracking daily activities and analyzing time
 
 ## Setup Instructions
 
-### 1. Firebase Configuration
+### 1. Clone Project 
+```bash
+git clone https://github.com/G-Kangutkar/Daily_Time_Tracking_Dashboard-Project.git
+```
+
+### 2. Firebase Configuration
 
 Before running the application, you need to update the Firebase configuration with your credentials:
 
@@ -29,7 +34,7 @@ Before running the application, you need to update the Firebase configuration wi
 
 The database URL is already configured: `https://ai-project-36184-default-rtdb.asia-southeast1.firebasedatabase.app/`
 
-### 2. Firebase Authentication Setup
+### 3. Firebase Authentication Setup
 
 In your Firebase Console:
 
@@ -37,7 +42,7 @@ In your Firebase Console:
 2. Optionally enable Google authentication
 3. Configure your domain in Firebase Authentication settings
 
-### 3. Firebase Database Rules
+### 4. Firebase Database Rules
 
 Set up these database rules in your Firebase Realtime Database:
 
@@ -54,19 +59,19 @@ Set up these database rules in your Firebase Realtime Database:
 }
 ```
 
-### 4. Install Dependencies
+### 5. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 5. Run Development Server
+### 6. Run Development Server
 
 ```bash
 npm run dev
 ```
 
-### 6. Build for Production
+### 7. Build for Production
 
 ```bash
 npm run build
