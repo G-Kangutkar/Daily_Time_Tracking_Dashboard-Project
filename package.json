@@ -3,15 +3,19 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://yourusername.github.io/Daily_Time_Tracking_Dashboard-Project/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "vite build --config vite.config.github.js",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "chart.js": "^4.5.1",
     "date-fns": "^3.6.0",
     "firebase": "^10.14.1",
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-chartjs-2": "^5.3.1",
     "react-dom": "^18.3.1",
