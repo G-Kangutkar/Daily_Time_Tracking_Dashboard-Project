@@ -5,13 +5,13 @@
 }
 
 :root {
-  --primary: #F97316;
---success: #10B981;
---warning: #EAB308;
---bg-primary: #FFF7ED;
---bg-secondary: #FFFFFF;
---text-primary: #1C1917;
---text-secondary: #78716C;
+ --primary: #84A98C;
+--success: #52796F;
+--warning: #C8B6A6;
+--bg-primary: #F5F3EF;
+--bg-secondary: #FFFBF5;
+--text-primary: #2F3E46;
+--text-secondary: #84A59D;
   --border: #E5E7EB;
   --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
