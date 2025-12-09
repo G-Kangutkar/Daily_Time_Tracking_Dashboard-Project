@@ -41,3 +41,15 @@ externalPort = 3000
 deploymentTarget = "static"
 build = ["npm", "run", "build"]
 publicDir = "dist"
+
+[userenv]
+
+[userenv.shared]
+VITE_FIREBASE_API_KEY = "AIzaSyAVEEtsi39DBChHj_Cu2V04gzulVeZDOcs"
+VITE_FIREBASE_AUTH_DOMAIN = "ai-project-36184.firebaseapp.com"
+VITE_FIREBASE_DATABASE_URL = "https://ai-project-36184-default-rtdb.asia-southeast1.firebasedatabase.app"
+VITE_FIREBASE_PROJECT_ID = "ai-project-36184"
+VITE_FIREBASE_STORAGE_BUCKET = "ai-project-36184.firebasestorage.app"
+VITE_FIREBASE_MESSAGING_SENDER_ID = "1040023061480"
+VITE_FIREBASE_APP_ID = "1:1040023061480:web:25d0c9e23171cde3999a5d"
+VITE_FIREBASE_MEASUREMENT_ID = "G-LQYGZ1DTCD"
