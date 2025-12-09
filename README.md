@@ -125,7 +125,7 @@ If no data exists for a selected date, you'll see a beautiful "No data available
 - Warning (Orange): #F59E0B
 
 ## Video Demo
-[Click here]([https://example.com](https://drive.google.com/file/d/1Cg9WDtoM1ntAixIhPDSP4ZRXEE-qbxkw/view?usp=sharing))
+[Live Demo](https://drive.google.com/file/d/1Cg9WDtoM1ntAixIhPDSP4ZRXEE-qbxkw/view?usp=sharing)
 
 
 ## Project Structure
