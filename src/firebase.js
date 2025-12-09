@@ -16,3 +16,8 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const database = getDatabase(app);
+
+console.log('Firebase Config Check:');
+console.log('API Key exists:', !!import.meta.env.VITE_FIREBASE_API_KEY);
+console.log('Auth Domain exists:', !!import.meta.env.VITE_FIREBASE_AUTH_DOMAIN);
+console.log('Project ID exists:', !!import.meta.env.VITE_FIREBASE_PROJECT_ID);
